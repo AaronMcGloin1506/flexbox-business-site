@@ -1,6 +1,98 @@
 body {
-    border: 0;
-    margin: 0;
-    font-family: 'Roboto Mono', monospace;
-    background-color: blanchedalmond
-  }
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+a {
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mission{
+    display: flex;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+    height: 300px;
+}
+
+.content {
+    margin: auto;
+    width: 100%;
+    background-color: white;
+}
+
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.company img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+#team-container {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+}
+
+.teammate {
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.team img{
+    width: 200px;
+}
